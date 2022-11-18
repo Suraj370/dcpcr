@@ -1,4 +1,5 @@
 import React from 'react'
+
 const backgroundStyles = {
   padding: "50px",
   margin: "30px",
@@ -7,8 +8,9 @@ const backgroundStyles = {
 function Home() {
   return (
     <div className='text-center  content-center text-xl ' 
-    style={{"height":'20px'}} >
-      <div className='font-bold' style={backgroundStyles}>  <h1>Child Rights</h1></div>
+    style={backgroundStyles}>
+      <div className='font-bold' >
+        <h1>Child Rights</h1></div>
         <h2  >The Delhi Commission for Protection Of Child Rights has attempted to create extensive repository of all existing 
             entilements and relevant information which could be of benefit to Persons with Disabilities & their caregivers in Delhi.This
             website aims to address the information asymmetry by creating awareness about the rights of Persons with Disabilities,
